@@ -4,7 +4,7 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Education from "@/components/Education";
 import { Card } from "@/components/ui/card";
-
+import { Analytics } from "@vercel/analytics/react";
 const Page = () => {
   return (
     <div className="flex flex-col items-center justify-center m-4 space-y-4">
