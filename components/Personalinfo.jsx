@@ -24,7 +24,7 @@ const Personalinfo = () => {
       email: "vadlamaniuday04@gmail.com",
       phone: "+91 7415366909",
       image:
-        "https://avatars.githubusercontent.com/u/106002431?s=400&u=933ba17a948a8c6b1471e294289d9e754127e377&v=4",
+        "https://avatars.githubusercontent.com/u/123340589?s=400&u=f8f9af1dc77ef04a6c8403b1c044f9c39d2de396&v=4",
       place: "Visakhapatnam, Andhra Pradesh",
     },
   };
