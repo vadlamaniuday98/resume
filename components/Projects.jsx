@@ -31,15 +31,15 @@ const Projects = () => {
   ];
 
   return (
-    <div className="flex flex-col space-y-2">
+    <div className="flex flex-col space-y-4 p-4">
       <div>
         <h2 className="text-2xl font-bold text-primary">Projects</h2>
       </div>
-      <div className="mt-4 md:mt-0 md:ml-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project) => (
-          <Card key={project.id} className="m-4 p-4">
+          <Card key={project.id} className="w-full">
             <CardContent>
-              <div className="flex items-center">
+              <div className="flex items-center justify-between mb-2 mt-2">
                 <h3 className="text-xl font-bold text-primary">
                   {project.title}
                 </h3>
@@ -58,12 +58,14 @@ const Projects = () => {
               </ul>
             </CardContent>
             <CardFooter>
-              Technologies:
-              {project.technologies.map((tech, index) => (
-                <span key={index} className="mr-2">
-                  <Badge variant="secondary">{tech}</Badge>
-                </span>
-              ))}
+              <span className="font-semibold mr-2">Technologies:</span>
+              <div className="flex flex-wrap">
+                {project.technologies.map((tech, index) => (
+                  <Badge key={index} variant="secondary" className="mr-2 mb-2">
+                    {tech}
+                  </Badge>
+                ))}
+              </div>
             </CardFooter>
           </Card>
         ))}
