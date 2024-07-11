@@ -17,7 +17,7 @@ const Personalinfo = () => {
   const userDetails = {
     name: "Vadlamani Uday Kumar",
     description:
-      "Enthusiastic Bachelors of Computer Applications graduate with knowledge in coding and design. Proficient in Python, JavaScript, SQL, and Java. Fast learner and has the ability to pick up new technologies quickly. I believe myself to be a developer, not a frameworker.Capability to work in teams by providing valuable support.",
+      "Enthusiastic BCA graduate skilled in Python, JavaScript, SQL, and Java, with a strong foundation in coding and design. Quick learner, adept at mastering new technologies. I believe myself to be a developer, not a frameworker. Capable of working as a team as well as self-leadif necessary.",
     details: {
       linkedin: "https://www.linkedin.com/in/vadlamani-uday-095755208/",
       github: "https://github.com/vadlamaniuday",
